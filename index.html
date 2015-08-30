@@ -142,6 +142,17 @@
     <script src="js/animatescroll.js"></script>
     <script src="js/scripts.js"></script>
     <script src="js/retina.min.js"></script>
-    <<script src="https://d2dyi2pd86a6cw.cloudfront.net/market/embed.js" charset="utf-8"></script>
-  	
+   
+  	<script>
+	(function(d, id, src) {
+	  var s = d.getElementById(id);
+	  if (!s) {
+	    s = d.createElement('script');
+	    s.id = id;
+	    s.src = src;
+	    d.head.appendChild(s);
+	  }
+	})(document, "sq-embed-js", "https://d2dyi2pd86a6cw.cloudfront.net/market/embed.js");
+	</script>
+      
 </html>
